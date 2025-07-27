@@ -7,9 +7,9 @@ const Hero = () => {
       <div className="gap-2 flex justify-between">
         <div className="flex-col flex flex-1 space-y-1.5">
           <TextAnimate animation="blurIn" as="h1" className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            Hello I'm Chidnanda Reddy 👋
+            Hello I&apos;m Chidnanda Reddy 👋
           </TextAnimate>
-        
+
         <TextAnimate
           animation="slideRight"
           as="p"
