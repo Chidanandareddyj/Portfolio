@@ -51,7 +51,17 @@ const Data = {
         navbar: false,
       },
     },
-  },
+  }, 
+  skills: [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "Postgress",
+    "C/C++",
+    "FastAPI",
+  ]
 };
 
 export default Data;

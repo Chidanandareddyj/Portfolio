@@ -7,11 +7,15 @@ import { BiLogoPython } from 'react-icons/bi'
 import { DiJavascript, DiMysql } from 'react-icons/di'
 import { SiExpress } from 'react-icons/si'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
+import { BlurFade } from './magicui/blur-fade'
+import { Badge } from './ui/badge'
+import Data from '@/Data/data'
 
 const Skills = () => {
   return (
     <div  className="relative flex items-center justify-center overflow-hidden h-[500px] w-full">
-        <OrbitingCircles iconSize={30} radius={190}>
+      
+        <OrbitingCircles iconSize={50} radius={190} reverse={true}>
             <Icons.react className="text-4xl text-blue-500" />
             <Icons.nextjs className="text-4xl text-black" />
             <RiTailwindCssFill className="text-4xl text-blue-400" />

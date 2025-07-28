@@ -6,6 +6,7 @@ import { TooltipProvider } from "@radix-ui/react-tooltip";
 import Navbar from "@/components/navbar";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
+import { Particles } from "@/components/magicui/particles";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -36,12 +37,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+          "min-h-screen bg-background font-sans antialiased py-1 sm:py-24 px-6",
           fontSans.variable
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
+            <div className="absolute inset-0">
+        <Particles size={0.6} quantity={100} />
+      </div>  
             {children}
             <Navbar />
           </TooltipProvider>
