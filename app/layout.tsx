@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import Navbar from "@/components/navbar";
 import { cn } from "@/lib/utils";
@@ -34,22 +33,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased py-1 sm:py-24 px-6",
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
-          <TooltipProvider delayDuration={0}>
-            <div className="absolute inset-0">
-        <Particles size={0.6} quantity={100} />
-      </div>  
-            {children}
-            <Navbar />
-          </TooltipProvider>
-        </ThemeProvider>
+        <TooltipProvider delayDuration={0}>
+          <div className="absolute inset-0">
+            <Particles size={0.6} quantity={100} />
+          </div>
+          {children}
+          <Navbar />
+        </TooltipProvider>
       </body>
     </html>
   );

@@ -76,12 +76,11 @@ const BrainSection = () => {
   return (
     <section ref={ref} className="brain-section">
       <div className="brain-content">
-        <h2 className="brain-title">inside my brain</h2>
+        <h2 className="brain-title">Inside my brain</h2>
         <p className="brain-subtitle">
           Welcome to the part of the internet where my raw, unfiltered thoughts exist. 
           Disclaimer: This isn't a structured blog or a polished portfolio: it's a space for 
-          the ideas in my head, the tech experiments I think of, the books that 
-          push me in a spiral and the questions I keep asking myself.
+          the ideas in my head, the tech experiments I think of, and the questions I keep asking myself.
         </p>
       </div>
 

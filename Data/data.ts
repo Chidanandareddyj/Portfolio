@@ -10,11 +10,6 @@ const Data = {
       href: "/",
       icon: HomeIcon,
     },
-    {
-      name: "About",
-      href: "/about",
-      icon: NotebookIcon,
-    },
     
   ],
   contact: {
