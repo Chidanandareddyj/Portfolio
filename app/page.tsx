@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Data from "@/Data/data";
 import { Badge } from "@/components/ui/badge";
 import Work from "@/components/Work";
+import Projects from "@/components/Projects";
 import BrainSection from "@/components/BrainSection";
 
 const BLUR_FADE_DELAY = 0.1; // Adjust the delay as needed
@@ -29,6 +30,7 @@ const page = () => {
         <Skills />
       </div>
       <Work />
+      <Projects />
     </div>
   );
 };

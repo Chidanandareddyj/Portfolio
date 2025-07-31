@@ -3,13 +3,6 @@ import { BlurFade } from "./magicui/blur-fade";
 import { CardSpotlight } from "./ui/card-spotlight";
 import { BorderBeam } from "./magicui/border-beam";
 
-const Step = ({ title }: { title: string }) => (
-  <li className="mt-2 flex items-start">
-    <span className="text-xs bg-white/20 p-1 rounded mr-2">→</span>
-    {title}
-  </li>
-);
-
 const Work = () => {
   return (
     <div className="my-10">
@@ -30,7 +23,7 @@ const Work = () => {
         
         <div className="text-neutral-200 mt-6 relative z-20">
           <p className="mb-4">
-            Contributing to the development and maintenance of the university's primary web platform using Next.js, 
+            Contributing to the development and maintenance of the university&apos;s primary web platform using Next.js, 
             Strapi CMS, and AWS services.
           </p>
           
