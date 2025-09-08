@@ -30,7 +30,7 @@ const Data = {
       },
       X: {
         name: "X",
-        url: "https://twitter.com/Chidanandareddyj17",
+        url: "https://twitter.com/Chidanandaj17",
         icon: Icons.x,
 
         navbar: true,
