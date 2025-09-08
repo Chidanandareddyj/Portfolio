@@ -2,18 +2,15 @@ import React from 'react'
 import { OrbitingCircles } from './magicui/orbiting-circles'
 import { Icons } from './icons'
 import { RiSupabaseFill, RiTailwindCssFill } from 'react-icons/ri'
-import { FaNodeJs, FaPython } from 'react-icons/fa'
+import { FaNodeJs } from 'react-icons/fa'
 import { BiLogoPython } from 'react-icons/bi'
 import { DiJavascript, DiMysql } from 'react-icons/di'
 import { SiExpress } from 'react-icons/si'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
-import { BlurFade } from './magicui/blur-fade'
-import { Badge } from './ui/badge'
-import Data from '@/Data/data'
 
 const Skills = () => {
   return (
-    <div  className="relative flex items-center justify-center overflow-hidden h-[500px] w-full">
+    <div  className="relative flex items-center justify-center overflow-hidden h-[360px] sm:h-[500px] w-full">
       
         <OrbitingCircles iconSize={50} radius={190} reverse={true}>
             <Icons.react className="text-4xl text-blue-500" />

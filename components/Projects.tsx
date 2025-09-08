@@ -37,7 +37,7 @@ const Projects = () => {
               </p>
               <p className="text-neutral-400 mt-1 relative z-20 text-xs">
                 <a
-                  href="https://github.com/VIT-AP/VITAP-Website"
+                  href="https://github.com/Chidanandareddyj/Byte_Learn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-white transition-colors"

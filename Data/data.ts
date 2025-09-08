@@ -1,5 +1,3 @@
-import { nav } from "motion/react-client";
-import { Geist, Geist_Mono } from "next/font/google";
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
@@ -53,7 +51,7 @@ const Data = {
     "Typescript",
     "Node.js",
     "Python",
-    "Postgress",
+    "Postgres",
     "C/C++",
     "FastAPI",
   ]
