@@ -1,8 +1,12 @@
 import React from "react";
 import { TextAnimate } from "./magicui/text-animate";
+import { WavyBackground } from "./ui/wavy-background";
 
 const Hero = () => {
   return (
+    <WavyBackground>
+
+    
     <div className="relative overflow-hidden h-[360px] sm:h-[500px] w-full">
       <div className="relative z-10 mx-auto w-full max-w-2xl space-y-6 sm:space-y-8 h-full flex flex-col justify-center px-4">
         <div className="gap-2 flex justify-between">
@@ -27,6 +31,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </WavyBackground>
   );
 };
 
